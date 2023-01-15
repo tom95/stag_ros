@@ -5,3 +5,5 @@ build
 bags/*
 scripts/launch_bundle.sh
 cmake-*
+
+node_modules

@@ -1,0 +1,23 @@
+{
+  "name": "stag_ros",
+  "version": "1.0.0",
+  "description": "[![Build Status](http://build.ros.org/buildStatus/icon?job=Nbin_uF64__stag_ros__ubuntu_focal_amd64__binary)](http://build.ros.org/job/Nbin_uF64__stag_ros__ubuntu_focal_amd64__binary/)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usrl-uofsc/stag_ros.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usrl-uofsc/stag_ros/issues"
+  },
+  "homepage": "https://github.com/usrl-uofsc/stag_ros#readme",
+  "devDependencies": {
+    "socket.io": "^4.5.4"
+  }
+}

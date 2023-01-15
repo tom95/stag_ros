@@ -41,7 +41,7 @@ struct Instrument {
 
   Instrument(const char* fullname, const char* file, int line)
       : fullname(fullname), file(file), line(line) {
-    std::cout << "Beginning instrumenting" << std::endl;
+    // std::cout << "Beginning instrumenting" << std::endl;
   }
   ~Instrument() {
     std::sort(times.begin(), times.end());
