@@ -35,8 +35,6 @@ int main(int argc, char **argv) {
 			std::cout << "[";
 			for (int i = 0; i < markers.size(); i++) {
 				auto marker = markers[i];
-				if (marker.id > 32)
-					continue;
 				if (i > 0) std::cout << ",";
 				std::cout << "{\"id\":" << marker.id << ",\"points\":[";
 				for (int j = 0; j < marker.corners.size(); j++) {
